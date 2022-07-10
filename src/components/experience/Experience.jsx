@@ -6,11 +6,10 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>knowledge</h3>
+          <h3>Skills</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>

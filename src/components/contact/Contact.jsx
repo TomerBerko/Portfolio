@@ -33,9 +33,9 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <IoLogoWhatsapp className="contact__option-icon"/>
-            <h4>Whatsapp</h4>
+            <h4>Phone number</h4>
             <h5>0524615761</h5>
-            <a href="https://api.whatsapp.com/send?phone=972524615761" target="_blank" rel="noreferrer">Send a messege</a>
+            <a href="https://api.whatsapp.com/send?phone=972524615761" target="_blank" rel="noreferrer">Send a whatsapp messege</a>
           </article>
         </div>
         <form ref={form} onSubmit = {sendEmail}>
