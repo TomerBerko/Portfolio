@@ -1,0 +1,41 @@
+.custom-container{
+    width: 80vw;
+    margin: auto;
+    
+}
+
+.projects__container{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .projects__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .custom-container{
+        width: 90vw;
+        margin: auto;
+        
+    }
+}
+@media screen and (max-width:600px) {
+    
+    .projects__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .custom-container{
+        width: 90vw;
+        margin: auto;
+        
+    }
+    
+}
