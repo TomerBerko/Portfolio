@@ -119,11 +119,6 @@ imag{
 }
 
 @media screen and (max-width:1024px) {
-    body{
-        -webkit-overflow-scrolling: touch;
-        height: 100%;
-        width: 100%;
-    }
     .container{
         width: var(--container-width-md);
     }
