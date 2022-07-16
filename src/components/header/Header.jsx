@@ -8,11 +8,11 @@ import 'animate.css';
 const Header = () => {
   
   return (
-    <header >
+    <header>
       <div className="container header__container animate__animated animate__fadeInUp">
         <h5>Hello I'm</h5>
         <h1>Tomer Berkovich</h1>
-        <h5 className="text-light">3rd year computer science student</h5>
+        <h5 className="text-light">Computer science graduate</h5>
         <CTA />
         <HeaderSocials />
 

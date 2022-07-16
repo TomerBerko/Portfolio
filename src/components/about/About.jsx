@@ -17,8 +17,11 @@ const About = () => {
         </div>
         <div className='about__content'>
         <p>
-        Passionate and highly motivated software developer , enthusiastic about coding and logic, eager to learn and create.
-        <br />I am a quick learner, self learner and a problem-solving oriented thinker.</p>
+          Computer science graduate,<br />
+          passionate about software development.<br /><br />
+          Pleasent & serious, highly motivated to work,  learn, commit and succeed.<br /><br />
+          Responsible, a quick learner with great self learning ability, and a problem-solving oriented thinker
+          </p>
 
         <a href="#contact" className='btn btn-primary'>Let's talk</a>
         </div>

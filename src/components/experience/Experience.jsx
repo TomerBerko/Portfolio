@@ -25,7 +25,7 @@ const Experience = () => {
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
-              <h4>Object Oriented Programming</h4>
+              <h4>OOP</h4>
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
@@ -33,13 +33,16 @@ const Experience = () => {
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
-              <h4> HTML</h4>
+              <h4> HTML & CSS</h4>
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
-              <h4>CSS</h4>
+              <h4>React & Node</h4>
             </article>
-            
+            <article className='experience__details'>
+              <AiOutlineCheckCircle className='experience__details-icon'/>
+              <h4>SQL</h4>
+            </article>
           </div>
         </div>
       </div>
