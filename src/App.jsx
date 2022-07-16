@@ -10,7 +10,7 @@ import Footer from './components/footer/Footer'
 const App = () => {
     return (
       <>
-        <div className="trybck">
+        <div className="backgrounddiv">
         <Header />
         <Nav />
         <About />
