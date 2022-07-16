@@ -134,7 +134,7 @@ imag{
         background-image: url(../src/assets/background-img.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat repeat;
-        min-height: 50rem;
+        background-size:150vw 120vh;
     }   
     .container{
         width: var(--container-width-sm);
