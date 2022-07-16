@@ -43,8 +43,6 @@ header {
 }
 
 .myAvatar{
-    /* width: 22rem;
-    height: 30rem; */
     position: inherit;
     left:calc(50%);
     transform:translateX(-50%);
