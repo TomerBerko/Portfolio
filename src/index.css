@@ -120,9 +120,8 @@ imag{
 
 @media screen and (max-width:1024px) {
     body{
-        /* background: none; */
-        /* background-image: url(../src/assets/background-img.jpg); */
-        background-size: 150vw calc(100vh+100px);
+        background: none;
+        background-image: url(../src/assets/background-img.jpg);
     }
     .container{
         width: var(--container-width-md);
