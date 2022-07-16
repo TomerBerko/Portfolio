@@ -134,8 +134,8 @@ imag{
         background: url(../src/assets/background-img.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: 100vh;
+        -o-background-size: 100vh;
+        background-size: cover;
     }
     
     .container{
