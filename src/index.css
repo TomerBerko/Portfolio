@@ -119,6 +119,9 @@ imag{
 }
 
 @media screen and (max-width:1024px) {
+    body{
+        height: CALC(100% + 2rem);
+    }
     .container{
         width: var(--container-width-md);
     }
