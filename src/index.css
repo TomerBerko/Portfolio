@@ -39,7 +39,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background: url(../src/assets/background-img.jpg)  center center fixed; 
+    background: url(../src/assets/background-img.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
