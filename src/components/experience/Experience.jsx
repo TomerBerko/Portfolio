@@ -41,7 +41,7 @@ const Experience = () => {
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
-              <h4>SQL</h4>
+              <h4>MySQL</h4>
             </article>
           </div>
         </div>
