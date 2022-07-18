@@ -13,15 +13,15 @@ const Experience = () => {
           <div className="experience__content">
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
-              <h4>C</h4>
+              <h4>C#</h4>
             </article>
             <article className='experience__details'>  
               <AiOutlineCheckCircle className='experience__details-icon'/>
-              <h4>C#</h4>
+              <h4>.NET</h4>
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
-              <h4>.NET</h4>
+              <h4>Python</h4>
             </article>
             <article className='experience__details'>
               <AiOutlineCheckCircle className='experience__details-icon'/>
