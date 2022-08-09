@@ -27,7 +27,7 @@ const data = [
     id:"2",
     image:Garage,
     title:"Garage Manager Console", 
-    description:"OOP driven Garage manager console application. Currently supports Cars, Motorcycles (both fuel and electric) and Trucks. Each vehicle is wrapping common & unique objects and properties according to its type. Includes 5 actions such as refule, inflating and more.",
+    description:"OOP driven Garage manager console application. Currently supports Cars, Motorcycles (both fuel and electric) and Trucks. Each vehicle is wrapping common & unique objects and properties according to its type. Includes 5 actions such as refuel, inflating and more.",
     gitubLink:"https://github.com/TomerBerko/Garage-management",
   },
   {
