@@ -48,7 +48,7 @@ const data = [
     id:"5",
     image:ReverseTicTac,
     title:"Reverse-Tic-Tac-Toe",
-    description:"WinForm application using C# .NET and OOP to make a uniqe game of tic tac toe where the winner is the one that doesn't have a row at the end. There is an option for picking a bigger board and to choose a 2 player game or 1 aginest the computer. The app will count the scores and anounce the winner.",
+    description:"WinForms application using C# .NET and OOP to make a unique game of tic tac toe where the winner is the one that doesn't have a row at the end. There is an option for picking a bigger board and to choose a 2 player game or 1 against the computer. The app will count the scores and announce the winner.",
     gitubLink:"https://github.com/TomerBerko/Reverse-Tic-Tac-Toe",
   },
   {
