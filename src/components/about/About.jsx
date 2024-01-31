@@ -18,7 +18,7 @@ const About = () => {
         <div className='about__content'>
         <p>
           Computer science graduate,<br />
-          passionate about software development.<br /><br />
+          Passionate full-stack developer .<br /><br />
           Pleasent & serious, highly motivated to work,  learn, commit and succeed.<br /><br />
           Responsible, a quick learner with great self learning ability, and a problem-solving oriented thinker
           </p>
