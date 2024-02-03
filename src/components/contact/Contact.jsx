@@ -3,8 +3,20 @@ import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {IoLogoWhatsapp} from 'react-icons/io'
 import emailjs from 'emailjs-com'
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
+//toast.configure();
 const Contact = () => {
+ 
+  const notify = () => {
+    console.log("IM HERE");
+    toast.success("I am are happy to hear from you! Will get back to you soon :)", {
+      position: 'bottom-center',
+      autoClose: 6000, // Set to false for manual close
+    });
+    //toast("Wow so easy!");
+  }
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -12,9 +24,11 @@ const Contact = () => {
     emailjs.sendForm('service_h26tfz3', 'template_2cutgmq', form.current, 'HDTPuP21O3lj51dO5')
       .then((result) => {
           console.log(result.text);
+          notify()  
       }, (error) => {
           console.log(error.text);
       });
+      
     e.target.reset()
   };
 
